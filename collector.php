@@ -7,9 +7,6 @@ $content = file_get_contents($url);
 
 if ($content !== false) {
 
-    $content = preg_replace('/#profile-title: base64:VFZDIHwgVk1FU1M=', '', $content);
-
-
     $content = preg_replace('/@.*/', '', $content);
 
     function changeNameInVmessLink($vmessLink) {
