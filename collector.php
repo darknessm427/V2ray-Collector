@@ -7,7 +7,7 @@ $content = file_get_contents($url);
 
 if ($content !== false) {
 
-    $content = preg_replace('/#profile-title: base64:VFZDIHwgVk1FU1M=.*?#profile-web-page-url: https:\/\/github\.com\/darknessm427\/V2rayCollector/ms', '', $content);
+    $content = preg_replace('/#profile-title: base64:VFZDIHwgVk1FU1M=', '', $content);
 
 
     $content = preg_replace('/@.*/', '', $content);
