@@ -1,6 +1,6 @@
 <?php
 
-$urlv = 'https://raw.githubusercontent.com/darknessm427/V2rayCollector/main/vmess_iran.txt';
+$url = 'https://raw.githubusercontent.com/darknessm427/V2rayCollector/main/vmess_iran.txt';
 $filePath = 'sub/vmess';
 
 $content = file_get_contents($url);
